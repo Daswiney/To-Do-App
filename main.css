@@ -1,0 +1,47 @@
+
+:root {
+	--light: #EEE;
+	--grey: #888;
+	--dark: #313154;
+    --blue: #0f6dcb;
+}
+
+* {
+    max-width: 500px;
+    margin: auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	background: var(--light);
+	color: var(--dark);
+    
+}
+
+section {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+h3 {
+	color: var(--dark);
+	font-size: 1rem;
+	font-weight: 400;
+	margin-bottom: 0.5rem;
+}
+
+h4 {
+	color: var(--grey);
+	font-size: 0.875rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+
+.done {
+	text-decoration: line-through;
+	color: var(--blue);
+} 
